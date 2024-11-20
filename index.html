@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار الأسئلة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>اختبار الأسئلة</h1>
+        </header>
+        <div id="quiz-container">
+            <div class="question-container">
+                <p id="question-text">تحميل السؤال...</p>
+                <div id="answers"></div>
+            </div>
+            <button id="next-btn" onclick="nextQuestion()">التالي</button>
+            <button id="submit-btn" onclick="submitQuiz()" style="display: none;">إرسال الإجابات</button>
+        </div>
+        <div id="result" style="display: none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
